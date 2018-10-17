@@ -5,7 +5,9 @@
 </head>
 <body>
 <div id="app">
-<b>{{pesan}}</b>
+<b v-if="tampil">{{pesan}}</b>
+<b v-else="tampil">{{pesan}}</b>
+<!--<b v-if="show == 'ada'">{{pesan}}</b>-->
 </div>
 <script src="vue.min.js"></script>
 <script src="apps.js"></script>
